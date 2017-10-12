@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> CSS Selectors </title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+  <h1 id="mainTitle"> CSS Selectors </h1>
+  <hr/>
+  <p> 
+    Selectors are patterns used to select the element you want to style.
+    There are multiple selectors that we can use to target a specific element(s).
+  </p>
+
+  <h2 class="subtitle">  Using the Element Tag as a Selector </h2>
+  <p>
+    Element tags can be used as a selector. <br>
+    When using an element tag, all of the elements with that specific tag
+    will have the style rule applied to them. <br>
+    This is specified in css as <b> [tagName] { ...[style rules]... } </b> <br>
+    <b> For Example: </b>
+    <p class="css-example"> 
+      p { color: blue; }
+    </p>
+  </p>
+
+  <h2 class="subtitle">  Using Classes as a Selector </h2>
+  <p>
+    HTML elements can be assigned a class attribute. Classes can be used
+    to identify more than one element. <br>
+    When a style rule is applied to a class, it will apply that rule
+    to all HTML elements that has that specific class value. <br>
+    In CSS, class selectors are specified by <b> .[className] </b> <br>
+    <b> For Example: </b>
+    <p class="css-example"> 
+      .sampleClass { color: black; }
+    </p>
+  </p>
+
+  <h2 class="subtitle"> Using IDs as a Selector </h2>
+  <p>
+    HTML elements can be assigned an id attribute. IDs should be unique
+    to each element and can only be used to identify one element. <br>
+    When a style rule is applied to an id, it will that rule to that
+    specific HTML element that has that specific id value. <br>
+    In CSS, id selectors are specified by <b> #[idName] </b> <br>
+    <b> For Example: </b>
+    <p class="css-example">
+      #sampleId { color: black; }
+    </p>
+  </p>
+
+  <h2 class="subtitle"> Other CSS Selectors </h2>
+  <p>
+    There are more CSS Selectors out there that you can use to identify
+    HTML elements that you want to apply specific style rules on. <br>
+    See <a id="LinkToReference" href="https://www.w3schools.com/cssref/css_selectors.asp"> CSS Selectors References </a>
+  </p>
+</body>
+
+</html>

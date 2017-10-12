@@ -1,0 +1,30 @@
+#container {
+  border:1px solid black;
+}
+
+#menu {
+  border:2px solid blue;
+  text-align: center;
+}
+
+#content-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  border:2px solid aqua;
+}
+#column1 {
+  width: 20%;
+  border:2px solid red;
+}
+
+#column2 {
+  width: 80%;
+  border:2px solid yellow;
+}
+
+#footer {
+  text-align: center;
+  border:2px solid green;
+}

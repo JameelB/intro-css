@@ -1,0 +1,21 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-size: 4em;
+}
+
+p {
+  background-color: beige;
+  color: black;
+  font-size: 2em;
+}
+
+ul {
+  background-color: wheat;
+  color: black;
+  font-size: 2em;
+}

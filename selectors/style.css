@@ -1,0 +1,24 @@
+body {
+  background-color: #f9fcff;
+}
+
+#mainTitle {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.subtitle {
+ color: #38393a;
+}
+
+.css-example {
+  background-color: #d4d9dd;
+  width: 80%;
+  padding: 10px;
+  padding-left: 20px;
+  margin-left: 30px;
+  border-radius: 3px;
+}
